@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6369C04B-8D89-3E77-91C2-A2694ACCB327}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\edac82d1aedaecf3ba18d23e0b470cd4\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" "-BC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Nastia/OneDrive/Рабочий стол/HW_BD/ClientsDB.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\libpqxx-config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\pqxx_cxx_feature_checks.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_ASSUME.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_INT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CMP.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CONCEPTS.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_PURE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_LIKELY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_MULTIDIM.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_PATH.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_POLL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SOURCE_LOCATION.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SPAN.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SSIZE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_R.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_S.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_THREAD_LOCAL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\no_need_fslib.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\doc\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\include\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\libpqxx.pc.in;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\src\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\test\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeLists.txt;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\pqxx\config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\src\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\doc\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" "-BC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Nastia/OneDrive/Рабочий стол/HW_BD/ClientsDB.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\libpqxx-config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\pqxx_cxx_feature_checks.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_ASSUME.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_INT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CMP.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CONCEPTS.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_PURE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_LIKELY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_MULTIDIM.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_PATH.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_POLL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SOURCE_LOCATION.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SPAN.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SSIZE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_R.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_S.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_THREAD_LOCAL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\no_need_fslib.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\doc\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\include\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\libpqxx.pc.in;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\src\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\test\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeLists.txt;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\pqxx\config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\src\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\doc\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" "-BC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Nastia/OneDrive/Рабочий стол/HW_BD/ClientsDB.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\libpqxx-config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\pqxx_cxx_feature_checks.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_ASSUME.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_INT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CMP.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CONCEPTS.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_PURE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_LIKELY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_MULTIDIM.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_PATH.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_POLL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SOURCE_LOCATION.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SPAN.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SSIZE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_R.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_S.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_THREAD_LOCAL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\no_need_fslib.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\doc\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\include\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\libpqxx.pc.in;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\src\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\test\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeLists.txt;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\pqxx\config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\src\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\doc\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" "-BC:/Users/Nastia/OneDrive/Рабочий стол/HW_BD" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Nastia/OneDrive/Рабочий стол/HW_BD/ClientsDB.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\libpqxx-config.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\cmake\pqxx_cxx_feature_checks.cmake;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_ASSUME.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_FLOAT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CHARCONV_INT.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CMP.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CONCEPTS.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_CXA_DEMANGLE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_PURE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_GCC_VISIBILITY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_LIKELY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_MULTIDIM.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_PATH.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_POLL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SLEEP_FOR.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SOURCE_LOCATION.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SPAN.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_SSIZE.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_R.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_STRERROR_S.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_THREAD_LOCAL.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\PQXX_HAVE_YEAR_MONTH_DAY.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\config-tests\no_need_fslib.cxx;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\doc\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\include\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\libpqxx.pc.in;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\src\CMakeLists.txt;C:\LIBPQ\libpqxx-7.10.0\libpqxx-7.10.0\test\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeRCCompiler.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\3.31.0-rc3\CMakeSystem.cmake;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeLists.txt;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\pqxx\config_cmake.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\src\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\include\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\doc\CMakeFiles\generate.stamp;C:\Users\Nastia\OneDrive\Рабочий стол\HW_BD\libpqxx-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

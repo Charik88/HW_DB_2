@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/CMakeLists.txt
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/cmake/config.cmake
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/cmake/libpqxx-config.cmake
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/cmake/pqxx_cxx_feature_checks.cmake
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_ASSUME.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_CHARCONV_FLOAT.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_CHARCONV_INT.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_CMP.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_CONCEPTS.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_CXA_DEMANGLE.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_GCC_PURE.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_GCC_VISIBILITY.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_LIKELY.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_MULTIDIM.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_PATH.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_POLL.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_SLEEP_FOR.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_SOURCE_LOCATION.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_SPAN.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_SSIZE.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_STRERROR_R.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_STRERROR_S.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_THREAD_LOCAL.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/PQXX_HAVE_YEAR_MONTH_DAY.cxx
+C:/LIBPQ/libpqxx-7.10.0/libpqxx-7.10.0/config-tests/no_need_fslib.cxx
+C:/Program Files/CMake/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPostgreSQL.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.31/Templates/CPackConfig.cmake.in
+C:/Users/Nastia/OneDrive/Рабочий стол/HW_BD/libpqxx-build/include/pqxx/config_cmake.h.in
